@@ -79,7 +79,7 @@ nav ul li{
 
 /* stats-section */
 .stats-section{
-    background-color: rgb(179, 198, 250);
+    background-color: rgb(208, 215, 235);
     text-align: center;
     padding: 30px 20px;
     border-radius: 10px;
@@ -119,7 +119,38 @@ nav ul li{
     color: #000000;
     margin: 8px auto;
 }
+/* user review */
+.our-users{
+    text-align: center;
+    padding: 40px 20px;
+    background: #FFFFFF;
 
+}
+.our-users h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.user-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 
+}
+.user{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 6px #F2EDED;
+    text-align: left;
+}
+.reviewer span {
+    display: flex;
+    color: gray;
+    font-size: 12px;
+    text-align: right;
+
+}
 
   
