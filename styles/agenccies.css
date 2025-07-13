@@ -59,24 +59,67 @@ nav ul li{
     text-align: center;
     margin-top: 130px;  
 }
-/* main style */
-main{
-    border-radius: 10px;
-    padding: 130px 150px;
-    margin: 0 auto;
-}
+
 /* action */
 .action{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-     max-width: 1140px;
-    
-    
-}
-.action-content{
-    max-width: 517px;
-}
-.action-picture{
-    width: 403px;
+    margin: 0px 200px;
+
 }
 
+.action-content{
+    max-width: 517px;
+    margin: auto;
+}
+.action-picture{
+    width: 403px 332px;
+}
+
+/* stats-section */
+.stats-section{
+    background-color: rgb(179, 198, 250);
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.stats-section h2{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.stats-section h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.users-number{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.user{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.user h3{
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0;
+
+}
+.user p {
+    font-size: 20px;
+    color: #000000;
+    margin: 8px auto;
+}
+
+
+
+  
